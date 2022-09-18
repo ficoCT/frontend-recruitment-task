@@ -1,0 +1,256 @@
+.alert {
+  position: absolute;
+  width: 920px;
+  height: 210px;
+  left: 160px;
+  top: 375px;
+  background-color: $color-white;
+
+  @media  #{$xs} {
+    width: 350px;
+    height: 180px;
+    left: 5px;
+    top: 150px;
+  }
+
+  @media  #{$xsl} {
+    width: 100px;
+    height: 180px;
+    left: 5px;
+    top: 50px;
+  }
+
+  @media  #{$sm} {
+    width: 550px;
+    height: 250px;
+    left: 0;
+    top: 140px;
+  }
+
+  @media  #{$sml} {
+    width: 520px;
+    height: 300px;
+    left: 60px;
+    top: 150px;
+  }
+
+  @media #{$md} {
+    width: 730px;
+    height: 200px;
+    left: 10px;
+    top: 180px;
+  }
+
+  @media #{$mdl} {
+    width: 600px;
+    height: 200px;
+    left: 80px;
+    top: 220px;
+  }
+
+  @media #{$lg} {
+    width: 650px;
+    height: 200px;
+    left: 240px;
+    top: 90px;
+  }
+
+  &__content {
+
+    position: absolute;
+    width: 380px;
+    height: 98px;
+    top: 56px;
+    left: 95px;
+
+    @media  #{$xs} {
+      position: absolute;
+      width: 250px;
+      height: 150px;
+      left: 30px;
+      top: 30px;
+    }
+
+    @media  #{$xsl} {
+      width: 100px;
+      height: 180px;
+      left: 0;
+      top: 0;
+    }
+
+    @media  #{$sml} {
+      width: 480px;
+      height: 250px;
+      left: 40px;
+      top: 40px;
+    }
+
+    @media #{$md} {
+      width: 400px;
+      height: 180px;
+      left: 30px;
+      top: 0;
+    }
+
+    @media #{$mdl} {
+      width: 500px;
+      height: 180px;
+      left: 50px;
+      top: 50px;
+    }
+
+    @media #{$lg} {
+      width: 380px;
+      height: 98px;
+      top: 56px;
+      left: 95px;
+    }
+
+    &__title {
+      position: absolute;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      width: 380px;
+      height: 50px;
+      font-family: $font-base;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 42px;
+      line-height: 120%;
+      color: $color-black;
+
+      @media  #{$xs} {
+        width: 350px;
+      }
+
+      @media  #{$xsl} {
+        width: 100px;
+      }
+
+      @media  #{$sml} {
+        width: 620px;
+      }
+
+      @media #{$md} {
+        width: 100px;
+        top: 40px;
+      }
+
+      @media #{$mdl} {
+        width: 800px;
+      }
+
+      @media #{$lg} {
+        width: 400px;
+      }
+    }
+
+    &__copy {
+      position: absolute;
+      width: 380px;
+      height: 24px;
+      margin-top: 0px;
+      top: 74px;
+      font-family: $font-base;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 150%;
+      color: $color-black;
+
+      @media  #{$xs} {
+        width: 350px;
+        top: 100px;
+      }
+
+      @media  #{$xsl} {
+        width: 100px;
+      }
+
+      @media  #{$sm} {
+        top: 130px;
+      }
+
+      @media  #{$sml} {
+        width: 620px;
+        top: 150px;
+      }
+
+      @media #{$md} {
+        width: 400px;
+        top: 140px;
+      }
+
+      @media #{$mdl} {
+        width: 800px;
+        top: 100px;
+      }
+
+      @media #{$lg} {
+        width: 400px;
+      }
+
+      &__bold {
+        font-weight: bold;
+      }
+    }
+  }
+
+  &__x_icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 40px;
+    right: 40px;
+
+    @media  #{$xs} {
+      top: 15px;
+      right: 15px;
+    }
+
+    @media  #{$xsl} {
+      top: 15px;
+      right: 15px;
+    }
+
+    @media  #{$sml} {
+      top: 15px;
+      right: 15px;
+    }
+
+    @media #{$md} {
+      top: 15px;
+      right: 15px;
+    }
+
+    @media #{$mdl} {
+      top: 15px;
+      right: 15px;
+    }
+
+    @media #{$lg} {
+      top: 15px;
+      right: 15px;
+    }
+
+    &__vector__1 {
+      position: absolute;
+      top: 41.6%;
+      left: 14.6%;
+      -ms-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      width: 17px;
+      border: 2px solid #000000;
+    }
+
+    &__vector__2 {
+      position: absolute;
+      top: 41.6%;
+      left: 14.6%;
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+      width: 17px;
+      border: 2px solid #000000;
+    }
+  }
+}

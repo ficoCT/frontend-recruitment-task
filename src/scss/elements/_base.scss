@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.container {
+  position: relative;
+  width: 1440px;
+  height: 960px;
+  background: #FFFFFF;
+  margin: 0 auto;
+
+  @media  #{$xs} {
+    width: 360px;
+    height: 460px;
+  }
+
+  @media  #{$xsl} {
+    width: 640px;
+    height: 360px;
+  }
+
+  @media #{$sm} {
+    width: 550px;
+    height: 650px;
+  }
+
+  @media #{$sml} {
+    width: 660px;
+    height: 620px;
+  }
+
+  @media #{$md} {
+    width: 750px;
+    height: 587px;
+  }
+
+  @media #{$mdl} {
+    width: 880px;
+    height: 760px;
+  }
+
+  @media #{$lg} {
+    width: 1010px;
+    height: 590px;
+  }
+
+  @media #{$xl} {
+    width: 1440px;
+    height: 960px;
+  }
+
+  @media #{$hd} {
+    width: 1440px;
+    height: 960px;
+  }
+}
+
+.color-overlay {
+  position: absolute;
+  width: 1440px;
+  height: 960px;
+  left: 0px;
+  top: 0px;
+  background: #121212;
+  opacity: 0.5;
+
+  @media  #{$xs} {
+    width: 360px;
+    height: 460px;
+  }
+
+  @media  #{$xsl} {
+    width: 640px;
+    height: 360px;
+  }
+
+  @media #{$sm} {
+    width: 550px;
+    height: 650px;
+  }
+
+  @media #{$sml} {
+    width: 660px;
+    height: 620px;
+  }
+
+  @media #{$md} {
+    width: 750px;
+    height: 587px;
+  }
+
+  @media #{$mdl} {
+    width: 880px;
+    height: 760px;
+  }
+
+  @media #{$lg} {
+    width: 1010px;
+    height: 590px;
+  }
+
+  @media #{$xl} {
+    width: 1440px;
+    height: 960px;
+  }
+
+  @media #{$hd} {
+    width: 1440px;
+    height: 960px;
+  }
+}
+
