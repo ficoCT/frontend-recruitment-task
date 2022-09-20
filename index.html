@@ -11,7 +11,7 @@
 <body>
     <main>
         <div class="container">
-<!--            <div class="color-overlay"></div>-->
+        <div class="color-overlay alert--visibility"></div>
             <section class="section">
                 <picture>
                     <source
@@ -64,14 +64,14 @@
                         modern and legacy infrastructures and SaaS platforms, managed via a single app with no hardware
                         required.
                     </p>
-                    <button type="button" class="section__content__button">
+                    <button type="button" id="myBtn" class="section__content__button">
                         <span class="section__content__button__text">
                             Button
                         </span>
                     </button>
                 </article>
             </section>
-            <div class="alert">
+            <div class="alert alert--visibility">
                 <span class="alert__x_icon">
                     <div class="alert__x_icon__vector__1">
                     </div>
@@ -85,7 +85,10 @@
                     <p class="alert__content__copy">
                         You have clicked
                         <span class="alert__content__copy__bold">
-                            X times
+                             <span class="alert__content__copy__bold__clicks">
+                                X
+                             </span>
+                            times
                         </span>
                         to related button.
                     </p>
@@ -93,4 +96,5 @@
             </div>
         </div>
     </main>
+    <script src="dist/all.js"></script>
 </body>

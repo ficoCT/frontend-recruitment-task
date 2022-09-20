@@ -5,6 +5,7 @@
   left: 160px;
   top: 375px;
   background-color: $color-white;
+  z-index: 900;
 
   @media  #{$xs} {
     width: 350px;
@@ -253,4 +254,8 @@
       border: 2px solid #000000;
     }
   }
+}
+
+.alert--visibility {
+  display: none;
 }

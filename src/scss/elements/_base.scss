@@ -64,6 +64,7 @@
   top: 0px;
   background: #121212;
   opacity: 0.5;
+  z-index: 800;
 
   @media  #{$xs} {
     width: 360px;
